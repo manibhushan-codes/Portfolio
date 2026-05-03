@@ -7,11 +7,12 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
+
 function About() {
   return (
     <>
       {" "}
-      <Particle />
+      <Particle/>
       <Container fluid className="about-section">
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -46,6 +47,11 @@ function About() {
             <strong className="purple">Tools</strong> I use
           </h1>
           <Toolstack />
+
+          {/* <h1 className="project-heading">
+            <strong className="purple">Frameworks</strong> I use
+          </h1>
+          <Frameworks /> */}
 
           <Github />
         </Container>

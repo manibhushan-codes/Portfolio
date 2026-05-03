@@ -6,13 +6,14 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { IoBriefcaseOutline } from "react-icons/io5";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+//import { Fa500Px, FaAccessibleIcon, FaAccusoft, FaAcquisitionsIncorporated, FaAd, FaAirbnb, FaAndroid, FaBabyCarriage, FaBriefcase, FaBriefcaseMedical, } from "react-icons/fa";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -69,6 +70,8 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -76,9 +79,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                  style={{ marginBottom: "2px" }}/>{" "}Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -92,19 +93,22 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <IoBriefcaseOutline style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 
+            
+            
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/manibhushan-codes"
                 target="_blank"
                 className="fork-btn-inner"
               >

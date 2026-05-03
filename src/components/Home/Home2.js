@@ -23,28 +23,29 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Java, c, Python, JavaScript and Node.js{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
               <br />
               <br />
-              My key areas of interest include developing
+              My core interests lie in developing modern
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications, designing AI & Machine Learning Models,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              Guided by curiosity and a problem-solving mindset, I focus on
+              creating solutions that combine technical precision with user-friendly
+              design.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Whenever possible, I love exploring new approaches to <b className="purple"> System design</b> and
+              applying them in practice. I’m equally passionate about leveraging 
+              <b className="purple"> AI/ML models</b> to create intelligent,
+              efficient solutions that enhance both performance and automation.{" "}
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
